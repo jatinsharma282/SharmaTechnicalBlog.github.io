@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+    <!-- Bootstrap and CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Jatin Blog</title>
+</head>
+
+<body>
+    <!-- header start -->
+    <header class="main_header">
+        <div class="d-flex justify-content-center align-items-center flex-column py-5">
+            <h1 class="main_heading">SHARMA TECHNICAL</h1>
+            <p class="main_heading__para">Welcome to my <span class="text-capitalize bg-dark text-white py-2 px-3">World
+                    of Blog</span></p>
+        </div>
+        <!-- the main images -->
+        <div class="main_header__div d-flex align-items-start justify-content-center pl-5 flex-column shadow">
+            <p>Sharma Technical</p>
+            <h2 class="animateWord">
+                <span>He is</span>
+                <div>
+                    <ul class="flip">
+                        <li>a Bloger</li>
+                    </ul>
+                </div>
+            </h2>
+            <button class="text-uppercase">subscribe</button>
+        </div>
+    </header>
+    <!-- header ends -->
+
+    <!-- two sides div start -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- to get the left and right side div space -->
+            <div class="col-xl-10 col-lg-10 col-md-11 col-11 mx-auto my-5">
+                <div class="row gx-5 mx-sm-auto">
+                    <!-- to get the left side of the div space -->
+                    <div class="col-lg-8 col-md-11 col-11 mx-auto">
+                        <div class="row gy-5">
+                            <!-- our first post code -->
+                            <div class="col-12 card p-4 shadow blog_left__div">
+                                <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+                                    <h1>BEST LAPTOP IN 2023</h1>
+                                    <p class="blog_title"><b>Title description,</b> Feb 8, 2023</p>
+                                </div>
+                                <figure class="right_side__img mb-5">
+                                    <img src="https://images.pexels.com/photos/3815750/pexels-photo-3815750.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                                        class="img-fluid shadow">
+                                </figure>
+                                <p><b>Sharma Technical</b> Welcomes, all of you to my world of blog. Some text about
+                                    this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae,
+                                    convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor
+                                    magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue
+                                    ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum,
+                                    porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing
+                                    elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                    minim veniam, quis nostrud exercitation ullamco.</p>
+                                <div class="d-flex justify-content-between left_div_btns">
+                                    <div>
+                                        <button class="left_div__like" id="like_btn"><i class="fas fa-thumbs-up"></i>
+                                            Like</button>
+                                    </div>
+                                    <div>
+                                        <button class="left_div__reply" onclick="reply('reply1')"> Replies <badge
+                                                class="bg-white text-dark p-2">1</badge></button>
+                                    </div>
+                                </div>
+                                <div class="replies" id="reply1">
+                                    <div
+                                        class="d-flex justify-content-start flex-row align-self-center card reply_card py-3">
+                                        <div class="reply_img mx-2 align-items-center">
+                                            <img
+                                                src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                        </div>
+                                        <div class="reply_text__left">
+                                            <p class="blog_title"><b> Jatin, </b>Feb 8, 2023, 7:20 PM</p>
+                                            <p>Awesome, Bro I love your content.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- our second post code -->
+                            <div class="col-12 card p-4 shadow blog_left__div">
+                                <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+                                    <h1 class="text-uppercase">Title Heading</h1>
+                                    <p class="blog_title"><b>Title description,</b> Feb 8, 2023</p>
+                                </div>
+                                <figure class="right_side__img mb-5">
+                                    <img src="https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                                        class="img-fluid shadow" class="img-fluid shadow">
+                                </figure>
+                                <p><b>Sharma Technical</b> Welcomes, all of you to my world of blog. Some text about
+                                    this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae,
+                                    convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor
+                                    magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue
+                                    ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum,
+                                    porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing
+                                    elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                    minim veniam, quis nostrud exercitation ullamco.</p>
+                                <div class="d-flex justify-content-between left_div_btns">
+                                    <div>
+                                        <button class="left_div__like" id="like_btn2"><i
+                                                class="fas fa-thumbs-up"></i>Like</button>
+                                    </div>
+                                    <div>
+                                        <button class="left_div__reply" onclick="reply('reply2')"> Replies <badge
+                                                class="bg-white text-dark p-2">2</badge></button>
+                                    </div>
+                                </div>
+                                <div class="replies" id="reply2">
+                                    <div
+                                        class="d-flex justify-content-start flex-row align-self-center card reply_card py-3">
+                                        <div class="reply_img mx-2 align-items-center">
+                                            <img
+                                                src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                        </div>
+                                        <div class="reply_text__left">
+                                            <p class="blog_title"><b> Jatin, </b>Feb 10, 2023, 7:20 PM</p>
+                                            <p>I really like the way you teach. Subscribed :)</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                        <div class=" reply_img mx-2 align-self-center ">
+                                            <img
+                                                src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                        </div>
+                                        <div class="reply_text__left">
+                                            <p class="blog_title "> <b> Jatin Sharma, </b>Feb 12, 2023, 7:00 AM </p>
+                                            <p>Awesome, Bro I love your content.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- our third post code  -->
+                            <div class="col-12 card p-4 shadow blog_left__div">
+                                <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+                                    <h1 class="text-uppercase">Title Heading</h1>
+                                    <p class="blog_title"><b>Title description,</b> Feb 8, 2023</p>
+                                </div>
+                                <figure class="right_side__img mb-5">
+                                    <img src="https://images.pexels.com/photos/4050303/pexels-photo-4050303.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                                        class="img-fluid shadow">
+                                </figure>
+                                <p><b>Sharma Technical</b> Welcomes, all of you to my world of blog. Some text about
+                                    this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae,
+                                    convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor
+                                    magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue
+                                    ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum,
+                                    porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing
+                                    elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                    minim veniam, quis nostrud exercitation ullamco.</p>
+                                <div class="d-flex justify-content-between left_div_btns">
+                                    <div>
+                                        <button class="left_div__like" id="like_btn3"><i class="fas fa-thumbs-up"></i>
+                                            Like</button>
+                                    </div>
+                                    <div>
+                                        <button class="left_div__reply" onclick="reply('reply3')"> Replies <badge
+                                                class="bg-white text-dark p-2">4</badge></button>
+                                    </div>
+                                </div>
+                                <div class="replies" id="reply3">
+                                    <div
+                                        class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                        <div class=" reply_img mx-2 align-self-center ">
+                                            <img
+                                                src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                        </div>
+                                        <div class="reply_text__left">
+                                            <p class="blog_title "> <b> John, </b> Feb 9, 2023, 4:20 PM </p>
+                                            <p>Awesome, Bro I love your content.</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                        <div class=" reply_img mx-2 align-self-center ">
+                                            <img
+                                                src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                        </div>
+                                        <div class="reply_text__left">
+                                            <p class="blog_title "> <b> Jatin, </b> Feb 11, 2023, 1:20 PM </p>
+                                            <p>Your content is Awesome as Always.</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                        <div class=" reply_img mx-2 align-self-center ">
+                                            <img
+                                                src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                        </div>
+                                        <div class="reply_text__left">
+                                            <p class="blog_title "> <b> Vinod, </b> Feb 12, 2023, 6:50 PM </p>
+                                            <p>Very Informative content.</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                        <div class=" reply_img mx-2 align-self-center ">
+                                            <img
+                                                src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                        </div>
+                                        <div class="reply_text__left">
+                                            <p class="blog_title "> <b> Jatin Sharma,</b> Feb 12, 2023, 7:20 PM </p>
+                                            <p>I really like your content bro. You are Awesome Bro :-)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- to get the right side of the div space -->
+                    <div class="col-lg-3 col-md-7 col-11  justify-content-end m-lg-0 m-auto ">
+                        <div class="row gy-5 left_div__blog">
+                            <!-- about me -->
+                            <div class="col-12  about_me_div shadow">
+                                <p>Jatin Sharma</p>
+                                <p>Just me, myself and I, exploring the universe of uknownment. I want to share my world
+                                    with you.</p>
+                            </div>
+
+                            <!-- popular post -->
+                            <div class="popular_post">
+                                <div class="right_div__title py-4 pl-2 ">
+                                    <h2>Popular Posts</h2>
+                                </div>
+                                <div class="right_sub__div shadow">
+                                    <div class="row">
+                                        <div class="col-3  popular_post__img1 py-2 pl-2"></div>
+                                        <div class="col-9">
+                                            <h3>Bill Gates</h3>
+                                            <p class="text-capitalize">CEO Microsoft</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3  popular_post__img2 py-2 pl-2"></div>
+                                        <div class="col-9">
+                                            <h3>Mark Zuckerberg </h3>
+                                            <p class="text-capitalize">Programmer</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3  popular_post__img3 py-2 pl-2"></div>
+                                        <div class="col-9">
+                                            <h3>Jeff Bezos</h3>
+                                            <p class="text-capitalize">Amazon</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3  popular_post__img4 py-2 pl-2"></div>
+                                        <div class="col-9">
+                                            <h3>Steve Jobs</h3>
+                                            <p class="text-capitalize">Apple</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- advertise -->
+                            <div class="right_div_post">
+                                <div class="right_div__title py-4 pl-2 ">
+                                    <h2>Advertise</h2>
+                                </div>
+                                <div class="right_sub__div">
+                                    <div class="advertise_img bg-light shadow">
+                                        <p>Ads goes here</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- tags -->
+                            <div class="right_div_post">
+                                <div class="right_div__title py-4 pl-2 ">
+                                    <h2>Tags</h2>
+                                </div>
+                                <div class="tags_main right_sub__div">
+                                    <a href="#" class="badge shadow text-capitalize"> html5 </a>
+                                    <a href="#" class="badge shadow text-capitalize"> css3 </a>
+                                    <a href="#" class="badge shadow text-capitalize"> js </a>
+                                    <a href="#" class="badge shadow text-capitalize"> c </a>
+                                    <a href="#" class="badge shadow text-capitalize"> c++ </a>
+                                    <a href="#" class="badge shadow text-capitalize"> java </a>
+                                </div>
+                            </div>
+
+                            <!-- Inspiration -->
+                            <div class="right_div_post">
+                                <div class="right_div__title py-4 pl-2 ">
+                                    <h2>Inspiration</h2>
+                                </div>
+                                <div class="right_sub__div">
+                                    <div class="row gx-3">
+                                        <div class="col-6">
+                                            <figure>
+                                                <img src="https://images.pexels.com/photos/196659/pexels-photo-196659.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+                                                    class="img-fluid shadow">
+                                            </figure>
+                                        </div>
+                                        <div class="col-6">
+                                            <figure>
+                                                <img src="https://images.pexels.com/photos/34140/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                                                    class="img-fluid shadow">
+                                            </figure>
+                                        </div>
+                                        <div class="col-6">
+                                            <figure>
+                                                <img src="https://images.pexels.com/photos/38547/office-freelancer-computer-business-38547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                                                    class="img-fluid shadow">
+                                            </figure>
+                                        </div>
+                                        <div class="col-6">
+                                            <figure>
+                                                <img src="https://images.pexels.com/photos/196659/pexels-photo-196659.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+                                                    class="img-fluid shadow">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Follow Me -->
+                            <div class="right_div_post">
+                                <div class="right_div__title py-4 pl-2 ">
+                                    <h2>Follow Me</h2>
+                                </div>
+                                <div class="right_sub__div d-flex justify-content-around">
+                                    <a href="#"> <i class="fab fa-3x fa-facebook-square"></i></a>
+                                    <a href="#"> <i class="fab fa-3x fa-instagram"></i></a>
+                                    <a href="#"> <i class="fab fa-3x fa-github-square"></i> </a>
+                                    <a href="#"> <i class="fab fa-3x fa-twitter-square"></i></a>
+                                    <a href="#"> <i class="fab fa-3x fa-youtube-square"></i> </a>
+                                    <a href="#"> <i class="fab fa-3x fa-linkedin"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- Subscribe -->
+                            <div class=" right_div_post">
+                                <div class="right_div__title py-4 pl-2 ">
+                                    <h2>Subscribe</h2>
+                                </div>
+                                <div class="right_sub__div">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Enter your e-mail below
+                                                and get notified on the latest blog posts.</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp" placeholder="name@example.com">
+                                        </div>
+                                        <div class="col-12">
+                                            <button class="subs_btn d-block" type="submit">Subscribe</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer part -->
+    <footer>
+        <p class="text-center py-4 bg-light">Design With Love By ©SharmaTechnical</p>
+    </footer>
+
+    <!-- Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+    <!-- own js -->
+    <script src="main.js"></script>
+
+</body>
+
+</html>
